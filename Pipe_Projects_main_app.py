@@ -6,7 +6,7 @@ import csv
 # API key  
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 DB_FILE = "pipeline_projects.db"
-allowed_users = ['guest1','guest2','guest3'.'guest4','guest5','guest6','guest7','guest8','rahul_07','rahul_negative','ravi_01','rudra_mehengi_coffee','amit_dhh','kajal_03','yashveer_10','praveen_04','nickpatrick_NOTbateman','chris_nospices','rohan_iluvbcci','joseph_08']
+allowed_users = ['guest0','guest1','guest2','guest3','guest4','guest5','guest6','guest7','guest8','rahul_07','rahul_negative','ravi_01','rudra_mehengi_coffee','amit_dhh','kajal_03','yashveer_10','praveen_04','nickpatrick_NOTbateman','chris_nospices','rohan_iluvbcci','joseph_08']
 # Context strings
 vision = """
 You are a only and only SQLLite query generating bot, not a Question answer bot.Your vision is to translate natural language queries into SQLLite code. You should always only respond with SQL query related to pipline_projects table and Never give General Answers.
